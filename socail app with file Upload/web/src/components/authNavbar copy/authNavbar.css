@@ -1,0 +1,98 @@
+.main {
+  background-color: #FFFFFF;
+
+}
+.link:hover {
+  background-color: rgb(238, 236, 236);
+
+}
+.link {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 700;
+  border: 3px solid transparent;
+
+}
+.nav-bar div{
+  flex-grow: 3;
+}
+.header {
+  background-color: #FFFFFF;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-nav {
+  width: 100%;
+}
+.nav-bar {
+ display: flex;
+ height: 100%   ;
+ width: 100%;
+ justify-content: space-between;
+
+}
+.upper-div{
+  display: flex;
+  justify-content: space-between;
+}
+.link:focus{
+  text-decoration: underline;
+  border-bottom: 3px solid #6001D2;
+}
+.icons-div{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.icons-div div:nth-child(1){
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.icons-div :nth-child(2){
+  width: 50px;
+  margin: 6px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-div div:hover {
+background-color: #FFFFFF;
+border-radius: 100%;
+}
+  
+
+
+@media (max-width:550px) {
+
+  .header {
+    width: 100%;
+  }
+
+  .link {
+    width: 50px;
+  }
+
+  .logo-nav {
+    width: 100%;
+  }
+
+
+}
